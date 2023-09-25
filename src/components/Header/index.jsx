@@ -1,14 +1,16 @@
 import { Container } from "./style";
 import logoI from '../../assets/Polygon 1.svg';
+import { Input } from "../Input/index";
+import { FiSearch } from "react-icons/fi"
 
 export function Header(){
 
     return(
         <Container>
-            <div>
-                <h1><img src={logoI} alt="" />food explorer</h1>
-            </div>
 
+            <h1><img src={logoI} alt="" />food explorer</h1>
+            <Input placeholder="Busque por pratos ou ingredientes" icon={FiSearch}/>
+             
             
         </Container>
     )
