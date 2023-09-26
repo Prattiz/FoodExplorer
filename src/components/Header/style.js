@@ -26,3 +26,15 @@ export const Container = styled.div`
         border: none;
     }
 `
+
+export const Logout =  styled.button`
+
+    border:none;
+    background: none;
+
+    >svg{
+        color:${({theme}) => theme.COLORS.GRAY_100};
+        font-size: 30px;
+    }
+    
+`
