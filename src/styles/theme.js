@@ -1,6 +1,6 @@
 export default {
     COLORS: {
-        //${({ theme }) => theme.COLORS.yourcolor};
+        // ${({ theme }) => theme.COLORS.yourcolor};
         BLACK_100: "#000000",
         BLACK: "#0D0C0F",
         RED: "#750310", 

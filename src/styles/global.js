@@ -31,6 +31,7 @@ export default createGlobalStyle`
         text-decoration: none;
         cursor: pointer;
         transition: filter .2s;
+        color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
     button{

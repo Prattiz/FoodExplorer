@@ -1,7 +1,6 @@
 import { Container } from "./style";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { FiSearch } from "react-icons/fi"
 
 export function Home() {
   

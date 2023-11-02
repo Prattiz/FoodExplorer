@@ -4,7 +4,7 @@ import { RouterSign } from "./auth.routes";
 
 export function Router(){
 
-    const user = true
+    const user = false
 
     return(
         <BrowserRouter>

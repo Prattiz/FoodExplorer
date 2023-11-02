@@ -5,8 +5,8 @@ import { SignIn } from "../pages/Login/signIn";
 export function RouterSign(){
     return(
         <Routes>
-            <Route path="/" element={<Login/>}></Route>
-            <Route path="/signin" element={<SignIn/>}></Route>
+            <Route path="/" element={<Login/>}/>
+            <Route path="/signin" element={<SignIn/>}/>
         </Routes>
     )
 }

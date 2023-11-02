@@ -1,5 +1,5 @@
 import { Container, Logout } from "./style";
-import logoI from '../../assets/Polygon 1.svg';
+import LogoI from '../../assets/Polygon 1.svg';
 import { Input } from "../Input/index";
 import { FiSearch } from "react-icons/fi";
 import { PiSignOutBold } from "react-icons/pi";
@@ -12,7 +12,7 @@ export function Header(){
         <Container>
 
             <h1>
-                <img src={logoI} alt="" />
+                <img src={LogoI}/>
                 food explorer
             </h1>
 
