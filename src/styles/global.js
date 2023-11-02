@@ -6,8 +6,7 @@ export default createGlobalStyle`
     *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
-       
+        box-sizing: border-box; 
     }
 
     :root {
@@ -39,10 +38,6 @@ export default createGlobalStyle`
         cursor: pointer;
         transition: filter .2s;
         font-family: 'Poppins', sans-serif;
-    }
-
-    :root {
-        font-size: 62.5%;
     }
 
     button:hover, a:hover {

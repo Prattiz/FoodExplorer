@@ -1,5 +1,6 @@
 export default {
     COLORS: {
+        //${({ theme }) => theme.COLORS.yourcolor};
         BLACK_100: "#000000",
         BLACK: "#0D0C0F",
         RED: "#750310", 
@@ -24,4 +25,4 @@ export default {
         GRAY_300: "#7C7C8A", 
         GRAY_400: "rgba(255, 255, 255, 0.05)",
     }
-}
+} 

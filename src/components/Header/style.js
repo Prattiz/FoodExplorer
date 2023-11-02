@@ -25,6 +25,16 @@ export const Container = styled.div`
         background: none;
         border: none;
     }
+
+    .cellView{
+        display: none;
+
+    }
+
+    @media screen and (max-width: 940px){
+
+        
+    }
 `
 
 export const Logout =  styled.button`
